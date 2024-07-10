@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    padding: 10px, 10px;
+    height: 75px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+button{
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+.container{
+    height: 500px;
+    width: 350px;
+    background-color: gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calcScreen{
+    flex-grow: 1;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calcBody{
+    flex-grow: 3;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
