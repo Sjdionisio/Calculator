@@ -11,6 +11,7 @@ input{
     height: 75px;
     font-size: 20px;
     border-radius: 15px;
+    background-color: #DEE0E6;
 }
 
 button{
@@ -28,6 +29,7 @@ button{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 5px 5px 4px #a5a6a8;
 }
 
 .calcScreen{
@@ -55,4 +57,15 @@ button{
 
 .btnAllClear{
     background-color: #FF5733;
+    font-weight: bold;
+    color: #DEE0E6;
+}
+.btnNum{
+    background-color: #DEE0E6;
+    font-weight: bolder;
+}
+.btnOp{
+    background-color: #373A42;
+    color: white;
+    font-weight: bold;
 }
