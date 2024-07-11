@@ -46,3 +46,13 @@ button{
     justify-content: space-around;
     align-items: center;
 }
+
+.btnDel{
+    width: 252px;
+    display: flex;
+    justify-content: start;
+}
+
+.btnAllClear{
+    background-color: #FF5733;
+}
